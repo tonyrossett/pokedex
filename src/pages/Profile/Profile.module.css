@@ -1,0 +1,132 @@
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    
+
+}
+.img_txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.img_txt img {
+    height: 200px;
+    width: auto;
+}
+
+.img_txt p {
+    text-transform: capitalize;
+    font-size: 40px;
+    margin: -20px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.images figcaption{
+    justify-content: center;
+    display: flex;
+}
+.img_txt .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details p {
+    margin: 10px;
+}
+
+.details ul li{
+    text-transform: capitalize;
+}
+.abilitiesTable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.abilitiesTable table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.abilitiesTable tr,
+th {
+    
+    text-align: left;
+    padding: 8px;
+    text-transform: capitalize;
+    border-spacing: 100px; 
+}
+
+.abilitiesTable td:first-child {
+    font-weight: bold;
+    
+}
+
+p {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.move {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 1200px;
+}
+
+.movesTable {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.movesTable table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.movesTable td,
+th {
+    text-align: left;
+    padding: 8px;
+    text-transform: capitalize;
+}
+
+thead tr th{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+tbody {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+}

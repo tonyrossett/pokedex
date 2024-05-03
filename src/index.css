@@ -1,0 +1,28 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+:root {
+  --darkblue:  rgb(37, 64, 101);
+  --darkbrown: #443030; 
+  --shadow: #49323270;
+  --font-light: rgb(235, 238, 226);
+  --dark: rgb(0, 0, 0);
+  --light: rgb(223, 230, 206);
+  --poke-icon-border: rgb(245, 245, 47);
+  --poke-red: #ff1616;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
