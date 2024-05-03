@@ -4,7 +4,6 @@ import Header from '../../components/Header';
 import Container from '../../components/Container';
 import styles from '../Home/Home.module.css';
 import Card from '../../components/Card';
-import { portugueseToEnglish } from '../../utils/LanguageMappings/languageMappings';
 import { CgAddR } from "react-icons/cg";
 import { Button } from "../../components/Button/index"
 
@@ -52,19 +51,7 @@ function Home() {
       return;
     }
 
-    
-
-    if (portugueseToEnglish[formattedSearchTerm]) {
-      formattedSearchTerm = portugueseToEnglish[formattedSearchTerm];
-    }
-
-    const filteredPokemons = pokemons.filter(pokemon =>
-      pokemon.id.toString() === formattedSearchTerm || 
-      pokemon.name.includes(formattedSearchTerm) || 
-      pokemon.types.some(type => type.type.name.includes(formattedSearchTerm)) 
-      );
-
-    setSearchResults(filteredPokemons);
+  
   };
 
   return (
