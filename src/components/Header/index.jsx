@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 import { ThemeTogglerButton } from "../ThemeTogglerButton/themetogglerbutton";
-import pokeLogo from "../../images/pokemon.png";
+import pokeLogo from "../../images/Pokemon.png";
 
 const Header = () => {
   return (
